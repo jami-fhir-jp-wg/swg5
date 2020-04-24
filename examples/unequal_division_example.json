@@ -436,7 +436,7 @@
 				  {
 				      "url": "http://hl7fhir.jp/StructuredDefinition/jp_medicationRequest/sequence",
 				      "valueInteger": 1
-				  }
+			  }
 			      ]
 			  },
 			  "doseQuantity": {
