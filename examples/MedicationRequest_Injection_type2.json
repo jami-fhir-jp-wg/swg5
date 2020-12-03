@@ -16,10 +16,13 @@
             ]
           },
           "strength": {
-            "denominator": {
+	    "numerator": {
               "value": 1.0,
               "unit": "本",
               "code": "HON"
+	    },
+            "denominator": {
+              "value": 1
             }
           }
         },
@@ -34,10 +37,13 @@
             ]
           },
           "strength": {
-            "denominator": {
+	    "numerator": {
               "value": 1.0,
               "unit": "アンプル",
               "code": "AMP"
+	    },
+            "denominator": {
+              "value": 1
             }
           }
         }
@@ -131,14 +137,6 @@
   ],
   "dosageInstruction": [
     {
-      "extension": [
-	{
-	  "url": "http://hlfhir.jp/fhir/MedicationRequest/line",
-	  "valueString": "中心静脈ルート赤"
-	}
-      ]
-    },
-    {
       "additionalInstruction": [
         {
           "coding": [
@@ -194,22 +192,48 @@
         ]
       },
       "route": {
+	"extension": [
+	  {
+	    "url": "http://hlfhir.jp/fhir/MedicationRequest/line",
+	    "valueCodeableConcept": {
+	      "coding": [
+		{
+		  "display": "中心静脈ルート赤"
+		}
+	      ]
+	    }
+	  }
+	],
         "coding": [
-          {
+	  {
             "system": "http://hl7fhir.jp/HL70162",
             "code": "IV",
             "display": "静脈内"
           }
-        ]
+	]
       },
       "method": {
-        "coding": [
+	"extension": [
+	  {
+	    "url": "http://hlfhir.jp/fhir/MedicationRequest/device",
+	    "valueCodeableConcept": {
+	      "coding": [
+		{
+		  "system": "http://hl7fhir.jp/hl70164",
+		  "code": "IVP",
+		  "display": "IVAC"
+		}
+	      ]
+	    }
+	  }
+	],
+	"coding": [
           {
             "system": "http://hl7fhir.jp/99ILL",
             "code": "102",
             "display": "点滴静注(末梢)"
           }
-        ]
+	]
       },
       "doseAndRate": [
         {
