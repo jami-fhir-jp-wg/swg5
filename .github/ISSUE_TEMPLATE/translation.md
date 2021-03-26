@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: 不具合とのその改善について報告してください
+name: Tranlation
+about: 翻訳すべきところ、改善点について報告してください
 
 ---
 
