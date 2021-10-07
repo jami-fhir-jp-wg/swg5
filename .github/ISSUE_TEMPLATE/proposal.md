@@ -1,5 +1,5 @@
 ---
-name: 提案
+name: 提案・要望
 about: プロジェクトへの提案
 title: ''
 labels: enhancement
