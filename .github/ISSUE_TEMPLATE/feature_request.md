@@ -1,20 +1,20 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: 仕様・機能についての要望
+about: FHIR Medicationに関連した仕様や要件についての要望
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**要望する仕様・機能に関連して，どのような問題があるのか説明してください。**
+要望を出すに至った簡潔に現状の問題点について説明してください。（例えば，このような場合で不満をいつも感じている）
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**あなたが考える提案でどのように問題が解決されますか？**
+その提案でどのような問題が解決されますか？具体的に示してください。
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**他の解決策はありますか？**
+考えられる解決法が他にありましたら，簡潔に説明してください。
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**その他の提案**
+他に提案すべき要望がありましたらご提案ください。
